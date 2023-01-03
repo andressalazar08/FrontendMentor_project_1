@@ -19,14 +19,19 @@ The designs were created to the following widths:
     --Light-gray: hsl(212, 45%, 89%);
     --Grayish-blue: hsl(220, 15%, 55%);
     --Dark-blue: hsl(218, 44%, 22%);
+     
 }
 
+html{
+    font-size: 62.5%; /* default value would be 16px -> font-size: 62,5%; // 16px * 0.625 = 10px*/
+}
 
 
 body{
     box-sizing: border-box;
     background-color: var(--Light-gray);
     font-family: 'Outfit', sans-serif;
+    
 }
 
 
@@ -47,7 +52,7 @@ main{
     padding: 1rem;
     padding-bottom: 1.5rem;
     border-radius: 1rem;
-    max-width: 370px;
+    max-width: 23.125rem;
     box-shadow: 0 1px 8px 0 rgb(0 0 0 / 20%), 0 1px 0.1px 0 rgb(0 0 0 / 19%);
     
 }
@@ -58,8 +63,8 @@ main{
     
 }
 .attribution{
-    font-size: 11px;
-     text-align: center
+    font-size: 0.6875rem;
+    text-align: center
    }
 
 .attribution a {
@@ -67,7 +72,7 @@ main{
     }
 
 p{
-   font-size: 15px;
+   font-size: 0.9375rem;
 }
 
 .texto{
@@ -80,9 +85,7 @@ p{
 
 h1.title{
     display: block;
-    margin-block-start: 0.67em;
-    margin-block-end: 0.67em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
+    margin-block-start: 1.5rem;
+    margin-block-end: 1.5rem;
     font-weight: bold;
 }
